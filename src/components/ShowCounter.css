@@ -1,0 +1,44 @@
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  background: url("https://images.pexels.com/photos/1421903/pexels-photo-1421903.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content {
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(5px);
+  box-shadow: rgba(255, 255, 255, 0.24) 2px 3px 8px;
+}
+.number {
+  font-size: 100px;
+  color: white;
+}
+.counter {
+  color: white;
+}
+.buttonbox {
+  display: flex;
+  gap: 25px;
+}
+.inc,
+.dec {
+  font-size: 25px;
+  padding: 15px 25px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 8px;
+}
